@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Product Catalog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>E-Commerce Product Catalog</h1>
+  
+  <!-- Buttons to trigger the API calls -->
+  <button id="productByIdBtn">Get Product by ID</button>
+  <button id="filterByCategoryBtn">Filter Products by Category</button>
+
+  <div id="result"></div>
+  
+  <div id="electronicsBlock" class="category-block">
+    <h2>Electronics</h2>
+    <ul id="electronicsList"></ul>
+  </div>
+
+  <div id="stationaryBlock" class="category-block">
+    <h2>Stationary</h2>
+    <ul id="stationaryList"></ul>
+  </div>
+
+  <div id="clothesBlock" class="category-block">
+    <h2>Clothes</h2>
+    <ul id="clothesList"></ul>
+  </div>
+
+  <div id="foodBlock" class="category-block">
+    <h2>Food</h2>
+    <ul id="foodList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
